@@ -11,16 +11,11 @@ let package = Package(
         .library(
             name: "AgoraRtcKit",
             targets: [
-                "AgoraAIDenoiseExtension","AgoraCore","Agorafdkaac","AgoraRtcKit","AgoraSoundTouch"
+               "AgoraCore","Agorafdkaac","AgoraRtcKit","AgoraSoundTouch"
             ]
         ),
     ],
     targets: [
-        .binaryTarget(
-            name: "AgoraAIDenoiseExtension",
-            url: "https://download.agora.io/swiftpm_2/AgoraAudio_iOS/3.5.0.3/AgoraAIDenoiseExtension.xcframework.zip",
-            checksum: "c7a421a22339fe613bb5421ae553f47abe2e9398a402c67f33b4de8f2dd6738f"
-        ),
         .binaryTarget(
             name: "AgoraCore",
             url: "https://download.agora.io/swiftpm_2/AgoraAudio_iOS/3.5.0.3/AgoraCore.xcframework.zip",
